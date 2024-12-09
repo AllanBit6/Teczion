@@ -176,6 +176,17 @@ header{
 
 }
 
+#portadaBasicos{
+	background-image: url(../media/basicos.jpg);
+	height: 350px;
+
+}
+
+#portadaIngles{
+	background-image: url(../media/ingles.jpg);
+	height: 350px;
+
+}
 
 video{
 	width: 100%;
@@ -278,7 +289,6 @@ nav > a:hover , .op-menu:hover{
 /*Barra social*/
 
 aside{
-	
 	position: fixed;
 	display: inherit;
 	z-index: 10;
@@ -287,9 +297,13 @@ aside{
 	
 }
 
+aside ul{
+	margin-left: -15px;
+}
+
 aside ul li a img, i{
 	width: 60px;
-	height: 60px;
+	height: 50px;
 	display: block;
 	transition: 0.2s;
 	/*animation: desplegar 1s normal;*/
@@ -1207,6 +1221,6 @@ footer{
     }
 	
 	aside{
-		margin-top: 40%;
+		margin-top: 30%;
 	}
 }
