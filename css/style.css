@@ -141,10 +141,8 @@ main{
 }
 
 header{
-	
 	width: 100%;
 	height: 650px;
-	
 	background: #c2e59c;  /* fallback for old browsers */
 	/*background: -webkit-linear-gradient(to right, hsla(207, 87%, 67%, 0.63), hsla(89, 58%, 75%, 0.66))url(../media/portada.jpg); */ 
 	background: linear-gradient(to right, hsla(207, 90%, 47%, 0.37), hsla(129, 74%, 65%, 0.33)) /*, url(../media/portada4.mov)*/; 
@@ -152,6 +150,12 @@ header{
 	background-size: cover;
 	position: relative;
 	
+}
+
+#portadaCarreras{
+	background-image: url(../media/conta.jpg);
+	height: 350px;
+
 }
 
 video{
@@ -402,6 +406,10 @@ header .textos-header{
 	
 }
 
+#contenedor2{
+	width: 80%;
+}
+
 .contenido-textos h3{
 	
 	color: var(--blue);
@@ -422,13 +430,14 @@ header .textos-header{
 	margin-right: 5px;
 }
 
-.contenido-textos p{
+.contenido-textos p, li{
 	
 	padding: 0px 0px 30px 15px;
 	font-weight: 300;
 	text-align: justify;
 	font-size: 19px;
 }
+
 
 
 
