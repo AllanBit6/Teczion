@@ -152,11 +152,30 @@ header{
 	
 }
 
-#portadaCarreras{
+#portadaPerito{
 	background-image: url(../media/conta.jpg);
 	height: 350px;
 
 }
+
+#portadaElectro{
+	background-image: url(../media/electro.jpg);
+	height: 350px;
+
+}
+
+#portadaMecanica{
+	background-image: url(../media/meca.jpeg);
+	height: 350px;
+
+}
+
+#portadaBio{
+	background-image: url(../media/bio.jpg);
+	height: 350px;
+
+}
+
 
 video{
 	width: 100%;
