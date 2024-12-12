@@ -188,14 +188,24 @@ header{
 
 }
 
+#portadaNosotros{
+	background-image: url(..//media/portadaNosotros.jpg);
+	height: 350px;
+}
+
 video{
 	width: 100%;
 	height: 650px;
 	position: fixed;
 	z-index: -10;
 	object-fit: cover;
-	filter: blur(3px) grayscale(1);	
+	filter: blur(3px) grayscale(1);
+	pointer-events: none;
 }
+
+video::-webkit-media-controls {
+    display: none;
+  }
 
 
 /*Barra de Navegacion*/
@@ -568,6 +578,8 @@ header .textos-header{
 	align-items:center;
 	flex-direction: column;
 }
+
+
 #electro{
 	background: hsla(120, 89%, 21%, 0.4);
 }
@@ -595,6 +607,7 @@ header .textos-header{
 	display: none;
 	
 }
+
 
 .hover-galeria i{
 	text-align: center;
