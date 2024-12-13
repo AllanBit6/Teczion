@@ -34,7 +34,7 @@ main{
 
 .slider{
   width: 100%;
-  height: 600px;
+  height: auto;
   overflow: hidden;
 }
 .slider ul{
@@ -48,7 +48,9 @@ main{
 }
 .slider img{
     width: 100%;
-    height: 100%;
+    height: auto;
+	display: block;
+	margin: auto;
 }
 
 @keyframes cambio{
@@ -191,6 +193,11 @@ header{
 #portadaNosotros{
 	background-image: url(..//media/portadaNosotros.jpg);
 	height: 350px;
+}
+
+#portadaAdmisiones{
+	background:none;
+	height: 100px;
 }
 
 video{
@@ -491,7 +498,7 @@ header .textos-header{
 	margin-right: 5px;
 }
 
-.contenido-textos p{
+.contenido-textos p, .contenido-textos ul{
 	
 	padding: 0px 0px 30px 15px;
 	font-weight: 300;
