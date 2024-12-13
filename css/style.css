@@ -307,13 +307,9 @@ aside{
 	
 }
 
-aside ul{
-	margin-left: -15px;
-}
-
 aside ul li a img, i{
 	width: 60px;
-	height: 50px;
+	height: 60px;
 	display: block;
 	transition: 0.2s;
 	/*animation: desplegar 1s normal;*/
@@ -495,7 +491,7 @@ header .textos-header{
 	margin-right: 5px;
 }
 
-.contenido-textos p, li{
+.contenido-textos p{
 	
 	padding: 0px 0px 30px 15px;
 	font-weight: 300;
@@ -1137,7 +1133,7 @@ footer{
 	aside ul li a img{
 		font-size: 30px;
 	}
-	
+
 	 .contenedor-footer{
         flex-direction: column;
         border: none;
@@ -1267,5 +1263,6 @@ footer{
 	
 	aside{
 		margin-top: 30%;
+
 	}
 }
